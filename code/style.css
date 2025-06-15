@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 1rem;
+}
+
+.container {
+  margin: 10rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.backColor {
+  border: 2px solid gray;
+  padding: 0.8rem 0.6rem;
+  margin-bottom: 1.8rem;
+  color: #ffff;
+  background-color: #212529;
+  border-radius: 9px;
+  font-size: 1.2rem;
+}
+
+.backColor span {
+  font-size: 1.8rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#clr {
+  color: #5c7cfa;
+  font-weight: bolder;
+}
+
+.btn {
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+  color: #212529;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: #212529;
+  color: #ffff;
+  cursor: pointer;
+}
